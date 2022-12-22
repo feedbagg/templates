@@ -20,6 +20,9 @@ To replicated original firmware behaviour, the red LEDs are configured as a PWM 
 
 LEDs that turn on with the relay cannot be controlled separately.
 
+If I2C-Deices are added to "ESP_RX" and "ESP_TX" then change config to:
+{"NAME":"Sonoff M5-3C","GPIO":[33,640,0,608,32,576,0,0,0,0,0,34,0,0,416,225,0,0,226,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+
 ## Serial Flashing
 
 Unclip the panel from the base. Remove two bottom screws and lift the plastic cover. Pull out the PCB by releasing the 4 clips holding it.
